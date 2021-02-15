@@ -3,7 +3,7 @@ import pywhatkit
 import time
 from datetime import datetime
 # 1. Definir para quais contatos enviar.
-contatos = ['+5541984016258']
+contatos = ['Número']
 # 2. Definir intervalo de envios.
 while len(contatos) >= 1:
     pywhatkit.sendwhatmsg(contatos[0], 'Hello World.', datetime.now().hour, datetime.now().minute + 1)
